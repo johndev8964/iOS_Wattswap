@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AreaInfo" representedClassName="AreaInfo" syncable="YES">
+        <attribute name="adesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_aid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="Date" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="ofp_sid"/>
+                <index value="ofp_fid"/>
+                <index value="ofp_aid"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="ConversionInfo" representedClassName="ConversionInfo" syncable="YES">
+        <attribute name="conversion_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fixture_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixture_input_watt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fixture_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixture_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lamp_ballast_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_desc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FixtureInfo" representedClassName="FixtureInfo" syncable="YES">
+        <attribute name="aid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ballastfactor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ballasttype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bulbsperfixture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="control" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="daysperweek" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fixturecnt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixtureid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fixturesize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixturetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hoursinyear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hoursperday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hoursperweek" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lampcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lamptype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lense" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mounting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ofp_aid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_fixtureid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ofp_sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="option" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realwatts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="replacement_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="style" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="supervisor_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wattsperbulb" optional="YES" attributeType="String" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="ofp_sid"/>
+                <index value="ofp_fid"/>
+                <index value="ofp_aid"/>
+                <index value="ofp_fixtureid"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="FloorInfo" representedClassName="FloorInfo" syncable="YES">
+        <attribute name="fdesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_fid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ofp_sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="Date" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="ofp_sid"/>
+                <index value="ofp_fid"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="OperationInfo" representedClassName="OperationInfo" syncable="YES">
+        <attribute name="obj_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RetrofitInfo" representedClassName="RetrofitInfo" syncable="YES">
+        <attribute name="retrofit_ballast" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="retrofit_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_lamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_old_fixture_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_old_lamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="retrofit_real_lamp_wattage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SurveyInfo" representedClassName="SurveyInfo" syncable="YES">
+        <attribute name="accountnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressline1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressline2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="breff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="btototalfutage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="btype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bunit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="butilitycompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cemail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cphone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ofp_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ofp_sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rateperwatt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduled" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="supervisor_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="ofp_sid"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="AreaInfo" positionX="-20" positionY="-9" width="128" height="180"/>
+        <element name="ConversionInfo" positionX="-441" positionY="81" width="128" height="165"/>
+        <element name="FixtureInfo" positionX="-225" positionY="-18" width="128" height="585"/>
+        <element name="FloorInfo" positionX="-441" positionY="-27" width="128" height="150"/>
+        <element name="OperationInfo" positionX="-405" positionY="117" width="128" height="90"/>
+        <element name="SurveyInfo" positionX="-639" positionY="-63" width="128" height="435"/>
+        <element name="RetrofitInfo" positionX="-432" positionY="90" width="128" height="165"/>
+    </elements>
+</model>

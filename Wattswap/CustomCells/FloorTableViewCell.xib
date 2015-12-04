@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Century Gothic.ttf">
+            <string>CenturyGothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GWY-vb-ewt" customClass="FloorTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GWY-vb-ewt" id="bdQ-LP-TNc">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_navigation_next.png" translatesAutoresizingMaskIntoConstraints="NO" id="PHm-3H-jee">
+                        <rect key="frame" x="280" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="9Hc-nj-Iqy"/>
+                            <constraint firstAttribute="height" constant="40" id="jVu-jv-C1b"/>
+                        </constraints>
+                    </imageView>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ctb-GO-Mvt" userLabel="Sample Image View">
+                        <rect key="frame" x="251" y="7" width="2" height="32"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="AS3-y7-qA1"/>
+                            <constraint firstAttribute="width" constant="2" id="gLK-uD-Mc4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4N4-aG-dZe">
+                        <rect key="frame" x="253" y="2" width="27" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="2h5-Zr-Feq"/>
+                            <constraint firstAttribute="width" constant="27" id="XY3-dc-sCd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJS-yo-PeH">
+                        <rect key="frame" x="224" y="2" width="27" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Cxz-Kt-eYI"/>
+                            <constraint firstAttribute="width" constant="27" id="sPx-Dj-dFX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCC-NN-WtI">
+                        <rect key="frame" x="8" y="1" width="208" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="208" id="e2a-fw-1o8"/>
+                            <constraint firstAttribute="height" constant="40" id="rr4-xz-4h5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UCC-NN-WtI" firstAttribute="leading" secondItem="bdQ-LP-TNc" secondAttribute="leadingMargin" id="2o9-9b-hGA"/>
+                    <constraint firstAttribute="centerY" secondItem="Ctb-GO-Mvt" secondAttribute="centerY" constant="-1.5" id="6b8-DY-bYL"/>
+                    <constraint firstAttribute="centerY" secondItem="PHm-3H-jee" secondAttribute="centerY" id="HUU-Mc-pYX"/>
+                    <constraint firstItem="4N4-aG-dZe" firstAttribute="leading" secondItem="lJS-yo-PeH" secondAttribute="trailing" constant="2" id="M8H-7b-B9P"/>
+                    <constraint firstItem="PHm-3H-jee" firstAttribute="leading" secondItem="4N4-aG-dZe" secondAttribute="trailing" id="Pq1-BQ-0Oz"/>
+                    <constraint firstAttribute="centerY" secondItem="4N4-aG-dZe" secondAttribute="centerY" id="bZv-jJ-xjh"/>
+                    <constraint firstAttribute="centerY" secondItem="lJS-yo-PeH" secondAttribute="centerY" id="dHw-5I-YAK"/>
+                    <constraint firstItem="4N4-aG-dZe" firstAttribute="leading" secondItem="Ctb-GO-Mvt" secondAttribute="trailing" id="iKi-5O-nUL"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PHm-3H-jee" secondAttribute="trailing" constant="-8" id="kpl-n7-vnA"/>
+                    <constraint firstAttribute="centerY" secondItem="UCC-NN-WtI" secondAttribute="centerY" id="si7-zb-aU3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="floorName" destination="UCC-NN-WtI" id="fp8-3T-pAQ"/>
+                <outlet property="numOfAreas" destination="lJS-yo-PeH" id="dqe-Wr-550"/>
+                <outlet property="numOfFixtures" destination="4N4-aG-dZe" id="ROr-DE-hGN"/>
+            </connections>
+            <point key="canvasLocation" x="396" y="216"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_navigation_next.png" width="88" height="88"/>
+    </resources>
+</document>

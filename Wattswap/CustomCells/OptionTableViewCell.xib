@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Century Gothic.ttf">
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="OptionTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="OptionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Other" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HXL-sf-ELt">
+                        <rect key="frame" x="8" y="2" width="312" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="312" id="6gs-G8-nxG"/>
+                            <constraint firstAttribute="height" constant="40" id="lld-g3-fMo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aM4-DM-uzZ" customClass="M13Checkbox">
+                        <rect key="frame" x="280" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="BYH-2O-uYH"/>
+                            <constraint firstAttribute="height" constant="40" id="yzd-Ms-YVC"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4da-Gv-fXn">
+                        <rect key="frame" x="8" y="2" width="272" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="af2-QK-Pzn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXy-H7-i20">
+                        <rect key="frame" x="8" y="42" width="304" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="57" id="e8L-II-xei"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="HXL-sf-ELt" secondAttribute="centerY" id="304-ES-Wt1"/>
+                    <constraint firstAttribute="centerY" secondItem="aM4-DM-uzZ" secondAttribute="centerY" id="JEZ-in-tSH"/>
+                    <constraint firstItem="4da-Gv-fXn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="LcW-55-3Xn"/>
+                    <constraint firstItem="IXy-H7-i20" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="REh-Hv-csC"/>
+                    <constraint firstItem="aM4-DM-uzZ" firstAttribute="leading" secondItem="4da-Gv-fXn" secondAttribute="trailing" id="ToM-d0-pvV"/>
+                    <constraint firstAttribute="centerY" secondItem="4da-Gv-fXn" secondAttribute="centerY" id="ae0-36-l3k"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aM4-DM-uzZ" secondAttribute="trailing" constant="-8" id="dlc-P1-s70"/>
+                    <constraint firstItem="aM4-DM-uzZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="gzf-47-Rha"/>
+                    <constraint firstItem="IXy-H7-i20" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="mCx-MR-3Yo"/>
+                    <constraint firstItem="HXL-sf-ELt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="nEt-Lv-8Az"/>
+                    <constraint firstItem="IXy-H7-i20" firstAttribute="top" secondItem="4da-Gv-fXn" secondAttribute="bottom" id="oAg-oL-nUG"/>
+                    <constraint firstItem="HXL-sf-ELt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ojr-xN-gYL"/>
+                    <constraint firstItem="4da-Gv-fXn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="u7u-uS-Mf9"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ae0-36-l3k"/>
+                        <exclude reference="304-ES-Wt1"/>
+                        <exclude reference="JEZ-in-tSH"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="m_chkState" destination="aM4-DM-uzZ" id="zec-mv-Y99"/>
+                <outlet property="m_lblOptionName" destination="4da-Gv-fXn" id="S4e-lr-XLs"/>
+                <outlet property="m_lblOthers" destination="IXy-H7-i20" id="efE-QI-IS6"/>
+                <outlet property="m_textEditBox" destination="HXL-sf-ELt" id="g5y-93-EHI"/>
+            </connections>
+            <point key="canvasLocation" x="363" y="241"/>
+        </tableViewCell>
+    </objects>
+</document>

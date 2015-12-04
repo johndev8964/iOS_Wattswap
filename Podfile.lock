@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking+ImageActivityIndicator (1.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Dropbox-iOS-SDK (1.3.13)
+  - IQKeyboardManager (3.3.1)
+  - M13Checkbox (1.1.2)
+  - MBProgressHUD (0.9.1)
+  - MFSideMenu (0.5.5)
+  - SVProgressHUD (1.1.3)
+  - Toast (2.4)
+  - TPKeyboardAvoiding (1.2.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AFNetworking+ImageActivityIndicator (~> 1.0)
+  - Dropbox-iOS-SDK
+  - IQKeyboardManager
+  - M13Checkbox (~> 1.1)
+  - MBProgressHUD (~> 0.8)
+  - MFSideMenu (~> 0.5)
+  - SVProgressHUD
+  - Toast (~> 2.4)
+  - TPKeyboardAvoiding (~> 1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AFNetworking+ImageActivityIndicator: 471ddeb0e4d1083a05afa64672280a5e96bf9d0b
+  Dropbox-iOS-SDK: e0c9b08d1604b39cb78c1d0333251de0f6bdec60
+  IQKeyboardManager: 860a5b9df32cc1435a3e967a08ed87de3e59c12e
+  M13Checkbox: 0c0bb08dcd144c4ea33f883b68270f3f56908ea2
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
+
+COCOAPODS: 0.36.0

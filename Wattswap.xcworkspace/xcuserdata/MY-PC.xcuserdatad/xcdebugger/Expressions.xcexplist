@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NewFixtureViewController initFixtureListsWithLampType:Fixture:]:NewFixtureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_lblLampCode.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewFixtureViewController saveNewFixture:]:NewFixtureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_lblLampCode.text">
+            </PersistentString>
+            <PersistentString
+               value = "global.fixture.lampcode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewFixtureViewController textField:shouldChangeCharactersInRange:replacementString:]:NewFixtureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewFixtureViewController viewDidLoad]:NewFixtureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "global.fixture.lampcode">
+            </PersistentString>
+            <PersistentString
+               value = "m_lblLampCode.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
